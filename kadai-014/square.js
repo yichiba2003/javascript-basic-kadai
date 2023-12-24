@@ -1,5 +1,5 @@
 function result (num) {
-  console.log (num ** 2);
+  return num ** 2;
 }
 
-result (10);
+console.log(result(5));
